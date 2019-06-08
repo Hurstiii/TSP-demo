@@ -22,20 +22,77 @@ code {
   grid-column: 1 / span 2;
   padding: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
   border-bottom: 2px solid black;
 }
 
-#UI {
+.UI.hidden {
+  display: none;
+}
+
+.UI {
   padding: 10px;
   display: flex;
-  flex-basis: 10px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  min-height: 445px;
+}
+
+.extend-graph-form {
+  display: grid;
+  justify-items: end;
+  grid-template: 1fr 1fr / 1fr 1fr;
+}
+
+.extend-graph-form label {
+  margin: 5px;
+  font-size: 0.9rem;
+}
+
+.extend-graph-form input {
+  width: 100px;
+}
+
+.extend-graph-form select {
+  width: 104px;
+}
+
+@media only screen and (max-width: 724px) {
+  .extend-graph-form {
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr / 1fr;
+  }
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 192px;
+  height: 40vh;
+}
+
+.input-section h4 {
+  margin: 0;
+}
+
+.input-section h2 {
+  margin: 0;
+}
+
+.list {
+  height: 10vh;
+  overflow: auto;
+}
+
+.list h5 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5px;
 }
 
 #jsonInput {

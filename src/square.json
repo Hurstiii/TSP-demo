@@ -28,8 +28,10 @@
   "edges": [
     {
       "id": "e0",
+      "label": "top",
       "source": "n0",
-      "target": "n1"
+      "target": "n1",
+      "size": 10
     },
     {
       "id": "e1",
@@ -39,12 +41,7 @@
     {
       "id": "e2",
       "source": "n2",
-      "target": "n3"
-    },
-    {
-      "id": "e3",
-      "source": "n3",
-      "target": "n0"
+      "target": "n2"
     }
   ]
 }
