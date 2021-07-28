@@ -16,3 +16,6 @@ This app was intended to be an app to demo the travelling salesman problem and s
 ### Currently
 
 Currently the app is only an example/test to learn how Sigma (the js library for the graphs) works. The app allows you to specify a graph node-by-node and edge-by-edge using the form on the left, or toggle the form with the button at the top to copy/paste a whole graph in (JSON format).
+
+![image](https://user-images.githubusercontent.com/43950567/127298828-c5bf0893-4afd-451b-9a58-7d25554beb7d.png)
+
